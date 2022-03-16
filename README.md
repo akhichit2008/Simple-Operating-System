@@ -8,5 +8,28 @@
 
 #### Progress - Currently working on the keyboard driver
 
+## Steps to Compile and Run locally
+
+### Step - 1
+<strong>The instructions given here are for linux and specifically debian based operating systems</strong>
+
+Install the required dependecies :- GCC, GNU grub, GNU xorriso , qemu , GNU Assembler (gas)
+
+### Step - 2
+Clone this repo and navigate to the directory where you cloned it. After navigating to the proper folder,
+Run
+```
+chmod +x test.sh
+```
+After that finally Run
+```
+./test.sh
+```
+And Hurray ! We have the os boot in the qemu emulator.
+
+<strong>Note: This os can also be run on real hardware or Virtualbox</strong>
+
+Hope you liked my project.
+
 #### Thank You.
 #### Have a great day.
