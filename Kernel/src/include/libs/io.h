@@ -1,18 +1,20 @@
-#pragma once
-#ifdef IO_H
-#define IO_H
+#ifdef IO_H_INCLUDED
+#define IO_H_INCLUDED
 
 typedef unsigned char uint8;
 typedef unsigned short uint16;
 typedef unsigned int uint32;
+
+unsigned int VGA_INDEX;
+static int next_line_index = 1;
+char g_fore_color = WHITE, g_back_color = BLUE;
+int digit_ascii_codes[10] = {0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39};
 
 // Basic Output Functions
 
 void printc(char character);
 void handleNewLine();
 void getStringLength();
-void printBasic(char *string);
-int // - compile for spencer - SPUTILSTOOLS - 6.2 or above installed and then flag = ( clang++ -useSPUTILSTOOLS6.8 -Werror -Wall -03 -o io.c io.spenexec )
-// Clang Splang Interface Support Helper (CSISH) => (  )
+void puts(char *string);
 
 #endif
