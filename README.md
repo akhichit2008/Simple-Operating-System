@@ -6,5 +6,7 @@
 
 ### Currently this os is in devlopmeent and is not yet completed. It currently only has some basic things. But soon it will get a lot of features.
 
+#### Progress - Currently working on the keyboard driver
+
 #### Thank You.
 #### Have a great day.
