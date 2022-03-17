@@ -17,11 +17,8 @@ Install the required dependecies :- GCC, GNU grub, GNU xorriso , qemu , GNU Asse
 
 ### Step - 2
 Clone this repo and navigate to the directory where you cloned it. After navigating to the proper folder,
-Run
-```
-chmod +x test.sh
-```
-After that finally Run
+
+Then Run
 ```
 make
 ```
