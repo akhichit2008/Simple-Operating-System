@@ -13,7 +13,7 @@
 ### Step - 1
 <strong>The instructions given here are for linux and specifically debian based operating systems</strong>
 
-Install the required dependecies :- GCC, GNU grub, GNU xorriso , qemu , GNU Assembler (gas)
+Install the required dependecies :- GCC, GNU grub, GNU xorriso , qemu , GNU Assembler (gas) , GNU Make
 
 ### Step - 2
 Clone this repo and navigate to the directory where you cloned it. After navigating to the proper folder,
@@ -23,7 +23,7 @@ chmod +x test.sh
 ```
 After that finally Run
 ```
-./test.sh
+make
 ```
 And Hurray ! We have the os boot in the qemu emulator.
 
