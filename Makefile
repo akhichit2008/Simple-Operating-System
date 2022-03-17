@@ -1,3 +1,4 @@
+CC = gcc
 all : compile_asm compile_kernel link_kernel build_iso start_emulation
 compile_asm:
 	as --32 boot.s -o boot.o
