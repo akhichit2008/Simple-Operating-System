@@ -20,7 +20,7 @@ Clone this repo and navigate to the directory where you cloned it. After navigat
 
 Then Run
 ```
-<strong>make</strong>
+make
 ```
 And Hurray ! We have the os boot in the qemu emulator.
 
