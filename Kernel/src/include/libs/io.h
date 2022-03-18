@@ -1,5 +1,5 @@
-#ifdef IO_H_INCLUDED
-#define IO_H_INCLUDED
+#ifdef IO_H
+#define IO_H
 
 typedef unsigned char uint8;
 typedef unsigned short uint16;

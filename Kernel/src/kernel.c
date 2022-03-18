@@ -4,5 +4,5 @@
 
 void kernel_entry() {
     INIT_VGA(WHITE,CYAN);
-    getDemoText();
+    testColorText();
 }

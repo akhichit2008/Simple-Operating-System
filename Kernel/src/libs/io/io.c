@@ -28,15 +28,36 @@ void handleNewLine() {
 
 void puts(char* string) {
     int i = 0;
+    int fi = 0;
     while(string[i]) {
         if (string[i] == '\n') {
             handleNewLine();
-        }else  {
+        } else  {
         printc(string[i]);
         }
         i++;
     }
 }
+
+void putsc(char* string,char* fc,char* bc) {
+    int i = 0;
+    char _before_fc,_before_bc;
+    _before_fc = g_fore_color;
+    _before_bc = g_back_color;
+    g_fore_color = fc;
+    g_back_color = bc;
+    puts(string);
+    g_fore_color = _before_fc;
+    g_back_color = _before_bc;
+}
+
+/* puts(); format specifiers
+
+%s - string
+%c - char
+%d - signed int
+%f - float
+*/
 
 // This is a simple in devlopment version of scanf() function. Currently it does have the usual scanf functionalities. But these features will be coming soon
 void scank() {
